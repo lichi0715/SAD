@@ -8,5 +8,5 @@
 - Web3.0 <br>
 旨在建立開放、互聯、智慧型網站和 Web 應用程式，是一個高度依賴機器學習、AI和區塊鏈技術的新一代網際網路技術，強調去中心化和數位經濟，資料不再被第三方掌握，實現對數據隱私的需求。（e.g.連結外部網站，僅需與錢包連結即可，過程公開、透明）
 
-[Web3.0心智圖](https://gitmind.com/app/docs/mg7wjgw5) <br>　
+ **[Web3.0心智圖](https://gitmind.com/app/docs/mg7wjgw5) <br>**
 `https://gitmind.com/app/docs/mg7wjgw5`
