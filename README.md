@@ -20,4 +20,4 @@ Web3.0 無人能夠操控、控管的特性，是優點亦是缺點，意思相�
  [Web3.0心智圖](https://gitmind.com/app/docs/mg7wjgw5) <br>
 `https://gitmind.com/app/docs/mg7wjgw5`
 
-如果想更認識Web3.0，我覺得這部影片提供了讓人蠻容易瞭解的解釋： [終將徹底改變一切的Web3.0 | 老高與小茉 Mr & Mrs Gao](https://www.youtube.com/watch?v=Ks_QkNTbGJY) <br>
+Web3.0基本概念學習： [終將徹底改變一切的Web3.0 | 老高與小茉 Mr & Mrs Gao](https://www.youtube.com/watch?v=Ks_QkNTbGJY) <br>
