@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- 中文編碼 -->
+    <meta charset="utf-8">
+    </meta>
+    <title> Homepage </title>
+    <style type="text/css">
+        /* .name{font} */
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .content {
+            width: 400px;
+            padding: 10px;
+            border: 1px solid blue;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .keyword {
+            color: red
+        }
+
+        .box_a {
+            /* absolute根據座標定位 獨立於其他區塊*/
+            position: absolute;
+            top: 0px;
+            right: 0px;
+
+            width: 100px;
+            height: 100px;
+            background-color: goldenrod;
+        }
+
+        .box_b {
+            /* relative以原始位置做基準點來做位移 */
+            position: relative;
+            top: 40px;
+            left: 100px;
+
+            width: 100px;
+            height: 100px;
+            background-color: rgba(54, 176, 241, 0.271);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>My picture</h3>
+    <!-- 開頭和結束中間無其他文字時，可以直接把斜線寫在後面 -->
+    <img src="photo-2.png" width="300" height="300" />
+    <hr />
+    <h3>My Info</h3>
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100002296648486">Facebook</a></li>
+        <li><a href="https://www.instagram.com/_chi2002/">Instagram</a></li>
+        <li><a href="https://github.com/lichi0715?tab=repositories">Github</a></li>
+    </ul>
+    <h3>Class</h3>
+    <!-- 創造表格：框線 表格寬度 文字與框線距離 -->
+    <table border="1" width="400" cellpadding="5">
+        <!-- 各行 -->
+        <tr>
+            <!-- 各列 -->
+            <td>Name</td>
+            <td>Teacher</td>
+            <td>Classroom</td>
+        </tr>
+        <tr>
+            <!-- 粗體與底線 -->
+            <td><b><u>系統分析</u>與設計</b></td>
+            <td>蔡芸琤</td>
+            <td>TB211</td>
+        </tr>
+        <tr>
+            <td>計算機結構</td>
+            <td>吳姈蓉</td>
+            <td>TA509</td>
+        </tr>
+        <tr>
+            <td>人工智慧影像辨識實務</td>
+            <td>孫沛立</td>
+            <td>TR509</td>
+        </tr>
+    </table>
+    <br />
+
+    <!-- CSS練習 -->
+    <!-- 加入style即可撰寫CSS語法 -->
+    <!-- 大多採用 CSS選擇器 而不是直接寫style在html語法裡-->
+    <div class="title">
+        CSS練習
+    </div>
+    <!-- div會產生斷行效果(方形區塊), span不會換行(行內標籤) -->
+    <!-- margin代表和指定方向區塊(div)的距離 -->
+    <!-- border 邊框粗度 樣式(solid, dashed) 顏色 / padding代表和邊框的距離 -->
+    <!-- width height 只能設定在區塊式的標籤(div) 不會段行的不行！ -->
+    <div class="content">
+        個人<span class="keyword">四次</span>作業 <br />
+        每次滿分15分，共計60分
+    </div>
+    <div class="box_a"></div>
+    <div class="box_b"></div>
+    <div class="title">
+        作業介紹
+    </div>
+    <div class="content">
+        1.你的<span class="keyword">自學領域</span>簡介
+    </div>
+    <div class="content">
+        <!-- top為負=往上方 -->
+        2.你目前選定的領域，進行第一次<span style="position: relative;top: -5px;">2</span>實做練習
+    </div>
+</body>
+
+</html>
