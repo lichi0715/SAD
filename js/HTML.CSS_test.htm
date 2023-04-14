@@ -7,16 +7,29 @@
     </meta>
     <title> Homepage </title>
     <style type="text/css">
-        /* .name{font} */
+        /* 標籤名稱選擇器 */
+        body {
+            /* 設定整份網頁的基本格式 */
+            font-size: 16px;
+            font-family: "微軟正黑體";
+        }
+
+        h3 {
+            font-size: 24px;
+            text-decoration: underline;
+        }
+
+        /* class選擇器 : .name{} */
         .title {
             font-weight: bold;
             font-size: 24px;
         }
 
-        .content {
+        /* div的class=content才套用 */
+        div.content {
             width: 400px;
             padding: 10px;
-            border: 1px solid blue;
+            border: 1px solid #888888;
             margin-top: 10px;
             margin-bottom: 10px;
         }
@@ -39,12 +52,40 @@
         .box_b {
             /* relative以原始位置做基準點來做位移 */
             position: relative;
-            top: 40px;
+            top: 10px;
             left: 100px;
 
             width: 100px;
             height: 100px;
-            background-color: rgba(54, 176, 241, 0.271);
+            background-color: beige;
+        }
+
+        /* id選擇器: #btn{} */
+        #btn {
+            border: 1px dashed #888888;
+            background-color: beige;
+            padding: 5px;
+        }
+
+        /* 虛擬選擇器(搭配其他選擇器使用) 可在特定時刻套用格式 */
+        /* :hover 虛擬選擇器 (滑鼠移到目標上時，套用一組設定) */
+        #btn:hover {
+            background-color: #888888;
+        }
+
+        /* :focus 虛擬選擇器 (當目標對象取得焦點時，套用一組設定) */
+        input:focus {
+            border: 4px dashed #ff0000;
+        }
+
+        /* 階層式選擇器(搭配其他選擇器使用) */
+        /* 在class=Info裡的a才套用 .選擇器一+空白+選擇器二{} */
+        .Info a {
+            color: #0000ff;
+        }
+
+        .School a {
+            color: #008800;
         }
     </style>
 </head>
@@ -55,12 +96,18 @@
     <img src="photo-2.png" width="300" height="300" />
     <hr />
     <h3>My Info</h3>
-    <ul>
+    <ul class="Info">
         <li><a href="https://www.facebook.com/profile.php?id=100002296648486">Facebook</a></li>
         <li><a href="https://www.instagram.com/_chi2002/">Instagram</a></li>
         <li><a href="https://github.com/lichi0715?tab=repositories">Github</a></li>
     </ul>
-    <h3>Class</h3>
+    <h3>My Schools</h3>
+    <ul class="School">
+        <li><a href="https://www.fhhs.kh.edu.tw/new/index.html">復華國中</a></li>
+        <li><a href="https://www.fhsh.khc.edu.tw/">鳳新高中</a></li>
+        <li><a href="https://www.ntnu.edu.tw/">臺灣師大</a></li>
+    </ul>
+    <h3>My Classes</h3>
     <!-- 創造表格：框線 表格寬度 文字與框線距離 -->
     <table border="1" width="400" cellpadding="5">
         <!-- 各行 -->
@@ -115,6 +162,10 @@
         <!-- top為負=往上方 -->
         2.你目前選定的領域，進行第一次<span style="position: relative;top: -5px;">2</span>實做練習
     </div>
+    <div class="content">
+        留言 <input type="text" /> <button id="btn">送出</button>
+    </div>
+
 </body>
 
 </html>
