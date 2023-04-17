@@ -23,4 +23,5 @@ Web3.0 無人能夠操控、控管的特性，是優點亦是缺點，意思相�
 HW1：[Web3.0心智圖講解影片](https://youtu.be/1sN2tEzVa-8) <br>
 `https://youtu.be/1sN2tEzVa-8` <br>
 
-HW2：[實做練習-1]
+HW2：[實做練習-1](https://www.youtube.com/watch?v=7MDWDdB25Ng)
+`https://www.youtube.com/watch?v=7MDWDdB25Ng` <br>
