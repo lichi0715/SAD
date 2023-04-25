@@ -26,4 +26,5 @@ HW1：[Web3.0心智圖講解影片](https://youtu.be/1sN2tEzVa-8) <br>
 HW2：[實作練習](https://www.youtube.com/watch?v=7MDWDdB25Ng) <br>
 `https://www.youtube.com/watch?v=7MDWDdB25Ng` <br>
 
-HW3：[專題實作規劃]
+HW3：[專題實作規劃](https://www.youtube.com/watch?v=7MDWDdB25Ng) <br>
+`https://www.youtube.com/watch?v=7MDWDdB25Ng` <br>
