@@ -30,4 +30,4 @@ HW3：<br>
 [專題實作規劃](https://youtu.be/ZyA5eVMJvSg) <br>
 `https://youtu.be/ZyA5eVMJvSg` <br>
 [Notion](https://www.notion.so/e234792b2ce641c9be66f92e132676d5?pvs=4) <br>
-`[https://www.youtube.com/watch?v=7MDWDdB25Ng](https://www.notion.so/e234792b2ce641c9be66f92e132676d5?pvs=4)` <br>
+`https://www.youtube.com/watch?v=7MDWDdB25Ng](https://www.notion.so/e234792b2ce641c9be66f92e132676d5?pvs=4` <br>
