@@ -31,3 +31,7 @@ HW3：<br>
 `https://youtu.be/ZyA5eVMJvSg` <br>
 [Notion](https://www.notion.so/e234792b2ce641c9be66f92e132676d5?pvs=4) <br>
 `https://www.notion.so/e234792b2ce641c9be66f92e132676d5?pvs=4` <br>
+
+HW4：<br>
+[專題實作練習](https://youtu.be/321iShb3i6w) <br>
+`https://youtu.be/321iShb3i6w` <br>
